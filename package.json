@@ -7,11 +7,15 @@
     "postinstall": "echo 'Dependencies installed'"
   },
   "dependencies": {
-    "@capacitor/android": "latest",
-    "@capacitor/core": "latest",
-    "@capacitor/ios": "latest",
-    "onesignal-cordova-plugin": "^5.2.4",
-    "@revenuecat/purchases-capacitor": "^8.0.0"
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@revenuecat/purchases-capacitor": "^8.0.0",
+    ...
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    ...
   },
   "devDependencies": {
     "@capacitor/cli": "latest",
